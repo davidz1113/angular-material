@@ -1,0 +1,5 @@
+<div class="margin">
+  padre works!
+  <app-hijo *ngIf="ocultarHijo1" (llamarFormulario)="cambiarEstados($event)" (enviarUsuario)="enviarUsuario($event)"></app-hijo>
+  <app-hijo2 *ngIf="ocultarHijo2" (llamarFormulario)="cambiarEstados($event)" [usuario]="usuario"></app-hijo2>
+</div>
